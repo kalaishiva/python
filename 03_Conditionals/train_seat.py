@@ -1,3 +1,13 @@
+#Building a tickedt info for railway app. Based on seat type, show its feature
+# task 1. input "sleeper/ AC/ general/ luxury" 2. Match using match case 3. unknown..show as "invalid"
+
+
+
+
+
+
+
+
 seat_type = input("Enter your seat type (sleeper/ AC/ general/ luxury)").lower()
 
 match seat_type:

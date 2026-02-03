@@ -1,3 +1,8 @@
+# in tea stall different price for different cup size..write a program tha calculate the price base on size.
+# Task input small/ medium/ large ...if s = 10, m= 15, l=20..if invalid show "unknown cup size"
+
+
+
 cup = input("Choose your cup size : (small/ medium/ large)").lower()
 
 if cup == "small":
