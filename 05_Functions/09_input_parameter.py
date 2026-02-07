@@ -11,7 +11,7 @@ prepare_chai(chai)
 chai = [1, 2, 3]
 
 def edit_chai(cup):
-    cup[1] = 42
+    cup[1] = 42   #we can change the position by this
 
 edit_chai(chai)
 print(chai)
