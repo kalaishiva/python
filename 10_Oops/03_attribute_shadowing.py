@@ -6,7 +6,7 @@ class Chai:
 cutting = Chai()
 print(cutting.temperature)
 
-cutting.temperature = "Mild"
+cutting.temperature = "Cold"
 cutting.cup = "small"
 
 print("After changing : ", cutting.temperature)
@@ -17,5 +17,5 @@ print("Direct look into the class : ", Chai.temperature)
 del cutting.temperature
 del cutting.cup
 print(cutting.temperature)
-print(cutting.cup) # this value doesnt exist in the class.
+#print(cutting.cup) # this value doesnt exist in the class.
 # this shows attribute error. Chai object has no attribute cup. so we dont have fall back..if it is present that is shadowing..
