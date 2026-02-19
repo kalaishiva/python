@@ -9,7 +9,7 @@ def brew_chai(name):
 
 if __name__ == "__main__":
     chai_makers = [
-        Process(target=brew_chai, args=(f"Chai Maker #{i+1}", ))
+        Process(target=brew_chai, args=(f"Chai Maker #{i+1}", )) # we are calling the whole thing as p.
         for i in range(3)
     ]
 
